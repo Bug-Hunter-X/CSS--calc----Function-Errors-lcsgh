@@ -1,0 +1,10 @@
+/* Correct usage of calc() */
+#element {
+  width: calc(100% - 20px);
+  height: calc(50vh - 10px);
+  /*Correct spacing around the + and - operators */
+  padding: calc(10px + 5px);
+  margin: calc(20px - 5px); 
+  /*Correct order of operations using parentheses */
+  width: calc((100% - 20px)/2);
+} 
